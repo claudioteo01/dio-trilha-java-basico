@@ -8,11 +8,13 @@ Dentro do projeto, crie a classe ContaTerminal.java para
 realizar toda a codificação do nosso programa.
 */
 
+import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
 public class ContaTerminal{
     public static void main(String[] args)  {
+        try{
 
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
         
@@ -24,6 +26,12 @@ public class ContaTerminal{
 
         System.out.println("Por favor, digite o Seu nome !");
         String nomeCliente = scanner.next();
+        }
+        catch(InputMismatchException e){
+
+            System.out.println("Os campos são numericos")
+
+        }
 
 
         double saldo = Double.valueOf(args[0]);
