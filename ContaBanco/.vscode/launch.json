@@ -1,12 +1,23 @@
 {
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "ResultadoEscolar",
+            "request": "launch",
+            "mainClass": "ResultadoEscolar",
+            "projectName": "ContaBanco_8b085e1a"
+        },
         {
             "type": "java",
             "request": "launch",
             "mainClass": "ContaTerminal",
-            "args": ["1021", "067-8", "MARIO ANDRADE", "1.5237.48"]
+            "args": [
+                "1021",
+                "067-8",
+                "MARIO ANDRADE",
+                "1.5237.48"
+            ]
         }
     ]
 }
