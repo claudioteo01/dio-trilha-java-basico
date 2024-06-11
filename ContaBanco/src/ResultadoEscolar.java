@@ -10,6 +10,8 @@ public class ResultadoEscolar {
 
 
         /*
+
+        Antigo*******************************************************
         
         if(nota >= 7)
          System.out.println("Aprovado");
